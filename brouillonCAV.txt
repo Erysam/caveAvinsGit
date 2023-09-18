@@ -1,0 +1,45 @@
+
+chemin git : 
+C:\Program Files\Git
+
+nom pour tortoise : 
+Erys
+Mail pour les commits : 
+1maryseal@gmail.com
+Freijo01
+
+
+<select name="select">
+  Type ?
+  <option value="value1">Rouge</option>
+  <option value="value2" selected>Avec les canards</option>
+  <option value="value3">Pas là</option>
+</select>
+
+
+echo 'select id="type">';
+echo '<option value="">--type de vin--</option> <option value="rouge">Rouge</option>';
+echo '<option value="blanc">Blanc</option> <option value="rose">Rosé</option> </select>';
+
+
+nom, type, annee, region, quantite, description
+
+$_server['REQUEST_METHOD']
+
+
+requete :
+ nom, annee, region, quantite, description
+
+echo "<table>";
+echo "<tr><th>Nom</th><th>Année</th><th>Région</th><th>Quantité</th></th></tr>";
+
+foreach ($data as $row) {
+    echo "<tr>";
+    echo "<td>".$row['nom']."</td>";
+    echo "<td>".$row['annee']."</td>";
+    echo "<td>".$row['region']."</td>";
+	echo "<td>".$row['quantite']."</td>";
+    echo "</tr>";
+}
+
+echo "</table>";
